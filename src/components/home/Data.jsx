@@ -60,7 +60,6 @@ in New York, and I'm very passionate and dedicated to my
 work.</p> 
 <a href="#contact" className="button button--flex">
 Say Hello
-</a>
 <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +77,10 @@ Say Hello
                     fill="var(--container-color)"
                   ></path>
                 </svg>
-   </div>
+</a>
+
+    </div>
+   
   )
 }
 

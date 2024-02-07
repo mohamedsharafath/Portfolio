@@ -158,16 +158,17 @@ img{
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: var(-title-color);
+  background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: .1s;
   }
   .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #6a6969;
   }
-  .button_icon {
+  .button__icon {
   margin-left: var(--mb-0-5);
   }
   .button--flex {
