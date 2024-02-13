@@ -141,11 +141,11 @@ img{
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
-  }
+}
   .section__title,
   .section__subtitle {
   text-align: center;
-  }
+}
 /* LAYOUT */
 .container {
   max-width: 968px; 
