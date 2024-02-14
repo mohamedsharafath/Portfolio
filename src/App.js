@@ -5,7 +5,9 @@ import Home from './components/home/home';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Services from './components/services/Services';
+import Qualification from './components/Qualification/Qualification';
 import Testimonials from './components/testimonials/Testimonials';
+import Footer from './components/footer/Footer';
 function App() {
   return (
     <>
@@ -15,7 +17,9 @@ function App() {
       <About/>
       <Skills/>
       <Services/>
+      <Qualification/>
       <Testimonials/>
+      <Footer/>
     </main>
     
     </>

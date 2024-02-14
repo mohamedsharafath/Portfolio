@@ -11,7 +11,7 @@
 .testimonial__img{
     width: 60px;
     border-radius: 3rem;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-1);
 }
 .testmonial__name{
     font-size: var(--normal-font-size);
