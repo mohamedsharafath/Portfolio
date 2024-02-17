@@ -10,7 +10,15 @@ const Backend = () => {
                 <div className="skills__data">
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">HTML</h3>
+                        <h3 className="skills__name">SQL</h3>
+                        <spam className="skills__level">Intermediate</spam>
+                    </div>
+                </div>
+            
+                <div className="skills__data">
+                    <i className='bx bx-badge-check'></i>
+                    <div>
+                        <h3 className="skills__name">Django</h3>
                         <spam className="skills__level">Basic</spam>
                     </div>
                 </div>
@@ -18,15 +26,7 @@ const Backend = () => {
                 <div className="skills__data">
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">HTML</h3>
-                        <spam className="skills__level">Basic</spam>
-                    </div>
-                </div>
-            
-                <div className="skills__data">
-                    <i className='bx bx-badge-check'></i>
-                    <div>
-                        <h3 className="skills__name">HTML</h3>
+                        <h3 className="skills__name">Java</h3>
                         <spam className="skills__level">Basic</spam>
                     </div>
                 </div>
@@ -36,11 +36,11 @@ const Backend = () => {
                 <div className="skills__data">
                     <i className='bx bx-badge-check'></i>
                     <div>
-                        <h3 className="skills__name">HTML</h3>
+                        <h3 className="skills__name">Git</h3>
                         <spam className="skills__level">Basic</spam>
                     </div>
                 </div>
-                <div className="skills__data">
+                {/* <div className="skills__data">
                     <i className='bx bx-badge-check'></i>
                     <div>
                         <h3 className="skills__name">HTML</h3>
@@ -53,7 +53,7 @@ const Backend = () => {
                         <h3 className="skills__name">HTML</h3>
                         <spam className="skills__level">Basic</spam>
                     </div>
-                </div>
+                </div> */}
             </div>
                
             

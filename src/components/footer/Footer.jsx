@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div className="footer__container container">
-            <h1 className="footer__title">Sharafath</h1>
+            <h1 className="footer__title">Mohamed Sharafath🕊️</h1>
             <ul className="footer__list">
                 <li>
                     <a href="#about" className="footer__link">About</a>
@@ -18,14 +18,14 @@ const Footer = () => {
                 </li>
             </ul>
             <div className="footer__social">
-                <a href="" className="footer__social-link" target="_blank">
+                <a href="https://www.instagram.com/shara_fath10/" className="footer__social-link" target="_blank">
                 <i className='bx bxl-instagram'></i>
                 </a>
-                <a href="" className="footer__social-link" target="_blank">
+                <a href="https://www.facebook.com/mohamed.sharafath.18/" className="footer__social-link" target="_blank">
                     <i className='bx bxl-facebook'></i>
 
                 </a>
-                <a href="" className="footer__social-link" target="_blank">
+                <a href="https://www.linkedin.com/in/mohamed-sharafath-a35377253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="footer__social-link" target="_blank">
                     <i className='bx bxl-linkedin'></i>
                 </a>
             </div>

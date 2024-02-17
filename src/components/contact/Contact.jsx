@@ -26,7 +26,7 @@ const Contact = () => {const form = useRef();
                         <i className="bx bx-mail-send contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">user@gmail.com</span>
+                        <span className="contact__card-data">sharafath0sms@gmail.com</span>
 
                         <a href="mailto:sharafath0sms@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"> </i></a>
                     </div>
@@ -34,17 +34,17 @@ const Contact = () => {const form = useRef();
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Whatsapp</h3>
-                        <span className="contact__card-data">23456789</span>
+                        <span className="contact__card-data">+91 8072753052</span>
 
                         <a href="https://api.whatsapp.com/send?phone=8072753052&text=Hello, more information!" target='blank' className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"> </i></a>
                     </div>
                     <div className="contact__card">
-                        <i className="bx bxl-messenger contact__card-icon"></i>
+                        <i className="bx bxl-linkedin contact__card-icon"></i>
 
-                        <h3 className="contact__card-title">Messenger</h3>
-                        <span className="contact__card-data">@@@@</span>
+                        <h3 className="contact__card-title">Linkedin</h3>
+                        <span className="contact__card-data"></span>
 
-                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"> </i></a>
+                        <a href="https://www.linkedin.com/in/mohamed-sharafath-a35377253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"> </i></a>
                     </div>
                 </div>
             </div>

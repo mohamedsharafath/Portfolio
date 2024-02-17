@@ -35,9 +35,11 @@
     padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
+    transition: 0.3s;
 }
 .footer__social-link:hover{
-    background-color: var(--title-color-dark);
+    /* background-color: var(--text-color); */
+    transform: translateY(-0.35rem);
 }
 .footer__copy{
     display: block;
