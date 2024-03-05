@@ -89,7 +89,7 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-            <div className="services__content">
+            {/* <div className="services__content">
                 <div>
                     <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">Visual <br /> Designer</h3>
@@ -126,7 +126,7 @@ const Services = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>
   )

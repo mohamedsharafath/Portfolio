@@ -27,8 +27,8 @@ const Testimonials = () => {
                 spaceBetween:48,
             },
             1024:{
-                slidesPerView:5,
-                spaceBetween:50,
+                slidesPerView:2,
+                spaceBetween:40,
             },
         }}
         modules={[Pagination]}

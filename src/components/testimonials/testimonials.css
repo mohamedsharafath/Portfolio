@@ -1,5 +1,5 @@
 .testimonial__container{
-    width: 750px;
+    width: initial;
 }
 .testimonial__card{
     background-color: var(--container-color);
@@ -21,6 +21,13 @@
 .testimonial__description{
     font-size: var(--small-font-size);
 }
+.swiper-wrapper
+{
+    justify-content: center;
+    /* margin-left: 30px; */
+
+}
+
 .swiper-pagination-bullet{
     background-color: var(--text-color) !important;
 }
@@ -28,10 +35,12 @@
     background-color: var(--title-color) !important;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 990px){
     .testimonial__container{
         width: initial;
+        
     }
+    
     .testimonial__card{
         padding: 1.25rem 1.5rem;
     }
