@@ -41,14 +41,25 @@
 /*==== VARIABLES CSS === == */
 :root {
   --header-height: 3rem;
-  /*====== Colors == =======*//*Color mode HSL (hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0 %);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hs1(var(--hue), var(--sat), 96%);
-  --container-color: #d2cfcf;
+  /*====== Colors ======*/
+/* Color mode HSL (hue, saturation, lightness) */
+/*====== Colors ======*/
+/* Color mode HSL (hue, saturation, lightness) */
+--hue: 25; /* Adjusted hue for a wider range of browns */
+--sat: 40%; /* Richer saturation for more vivid browns */
+
+--title-color: hsl(var(--hue), var(--sat), 18%); /* Dark chocolate for titles, deep and rich */
+--title-color-dark: hsl(var(--hue), var(--sat), 10%); /* Almost black-brown, for very emphasized titles */
+--text-color: hsl(var(--hue), var(--sat), 36%); /* Medium dark brown, good for readable text */
+--body-color: hsl(var(--hue), var(--sat), 92%); /* Very light creamy brown, ideal for backgrounds */
+
+/* Additional Colors for UI Elements */
+/* --container-color: rgb(234, 175, 133); Classic chocolate color */
+/* --container-color: hsl(var(--hue), 60%, 50%);  */
+--container-color: hsl(var(--hue), 30%, 75%); 
+/* --container-color: hsl(var(--hue), 25%, 30%);  */
+
+
   /* FONT AND TYPOGRAPGHY */
   --body-font: "Poppins",sans-serif;
   /*.5rem = 8px | 1rem = 16px ...*/

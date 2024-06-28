@@ -52,7 +52,7 @@ const Qualification = () => {
                     </div>
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Under Graduate</h3>
+                            <h3 className="qualification__title">Under Graduate (B.E.CSD)</h3>
                             <span className="qualification__subtitle">Coimbatore - SKCET</span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>2024 - present

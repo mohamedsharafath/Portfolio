@@ -13,7 +13,7 @@ const About = () => {
 
             <div className="about__data">
                 <Info/>
-                <p className="about__description">Frontend Developer, I create web pages with UI/UX user interface, I Have years of experience...</p>
+                <p className="about__description">I'm a dedicated student passionate about web development and artificial intelligence. I thrive on creating innovative, user-friendly web solutions and exploring the transformative potential of AI. My academic journey is fueled by a strong commitment to technology and its ability to positively impact the world.</p>
                 <a download="" href={CV} className="button button--flex">Download CV
                 <svg
                 class="button__icon"
