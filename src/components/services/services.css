@@ -1,7 +1,8 @@
 .services__container{
-    grid-template-columns: repeat(2,270px);
+    grid-template-columns: repeat(3,300px);
     justify-content: center;
-    column-gap: 1.8rem;
+    column-gap: 3rem;
+    margin-bottom: 5rem;
 }
 .services__content{
     position: relative;
@@ -54,7 +55,7 @@
     transition: .3s;
 }
 .services__modal-content{
-    width: 500px;
+    width: 600px;
     position: relative;
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
@@ -70,19 +71,24 @@
     cursor: pointer;
 }
 .services__modal-title,
-.services__modal-description{
+.services__modal-description {
     text-align: center;
 }
-.services__modal-title{
+
+.services__modal-title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1);
 }
-.services__modal-description{
+
+.services__modal-description {
     font-size: var(--small-font-size);
-    padding: 0 3.5rem;
+    padding: 0 1.5rem; /* Adjust the padding as needed */
+    width: 100%; /* Make the description full-width */
     margin-bottom: var(--mb-2);
+    /* text-align: left; Align the text to the left */
 }
+
 .services__modal-services{
     row-gap: 0.75rem;
 }

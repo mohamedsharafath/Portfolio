@@ -1,0 +1,120 @@
+/* Container for the project cards */
+.projects__container {
+    /* max-width: 900px; */
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Styling for individual project cards */
+.project__card {
+    background-color: var(--container-color);
+    border-radius: 16px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 350px;
+    min-height: 280px;
+    margin: auto;
+}
+
+/* Hover animation */
+.project__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Project icon */
+.project__icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Project title */
+.project__name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Project description */
+.project__description {
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    padding: 0 1rem;
+}
+
+/* GitHub link */
+.project__link {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.project__link:hover {
+    color: var(--primary-color-dark);
+}
+
+/* Swiper slide */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem; /* Add padding around the slide */
+    min-height: 400px; /* Ensure slides have some height */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .projects__container {
+        padding: 0 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .project__card {
+        padding: 1.5rem;
+        min-height: 380px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .projects__container {
+        padding: 0 1rem;
+    }
+
+    .project__card {
+        padding: 1.5rem;
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .project__card {
+        text-align: left;
+        padding: 1rem;
+    }
+
+    .project__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project__name {
+        font-size: 1.4rem;
+    }
+
+    .project__description {
+        font-size: 0.9rem;
+    }
+
+    .project__link {
+        font-size: 0.9rem;
+    }
+}

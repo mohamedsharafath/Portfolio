@@ -1,5 +1,6 @@
 .qualification__container{
     width: 768px;
+    margin-bottom: 5rem;
 }
 .qualification__tabs{
     display: flex;

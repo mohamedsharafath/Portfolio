@@ -1,60 +1,62 @@
 import React, { useState } from 'react'
 import "./services.css"
+
 const Services = () => {
     const[toggleState,setToggleState]=useState(0);
 
-    const toggleTab = (index) =>{
+    const toggleTab = (index) => {
         setToggleState(index);
     }
 
   return (
     <section className="services section" id="services">
         <h2 className="section__title">Services</h2>
-        <span className="section__subtitle">What I offer</span>
+        <span className="section__subtitle">What I Offer</span>
 
         <div className="services__container container grid">
             <div className="services__content">
                 <div>
                     <i className="uil uil-web-grid services__icon"></i>
-                    <h3 className="services__title">Web<br></br> Developer</h3>
+                    <h3 className="services__title">Web Development <br/> Services</h3>
                 </div>
 
-                <span className="services__button" onClick={()=>toggleTab(1)}>View More<i className="uil uil-arrow-right services__button-icon"></i></span>
+                <span className="services__button" onClick={()=>toggleTab(1)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
 
                 <div className={toggleState === 1 ? "services__modal active-modal":"services__modal"}>
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={()=>toggleTab(0)}></i>
-                        <h3 className="services__modal-title">Web Developer👨🏽‍💻</h3>
-                        <p className="services__modal-description">Offering professional web development services to create sleek, efficient, and responsive websites. Harness cutting-edge technology to deliver user-centric solutions that drive engagement and success.</p>
+                        <h3 className="services__modal-title">Full-Stack Web Development</h3>
+                        <p className="services__modal-description">I provide end-to-end web development services using cutting-edge technologies. Whether you're looking for a modern, responsive website or a scalable web application, I build solutions that are both functional and user-friendly.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Professional web development for all business needs.</p>
+                                <p className="services__modal-info">Expert in building dynamic, responsive websites and web applications.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Expertise in frontend and backend development.</p>
+                                <p className="services__modal-info">Proficiency in React, Spring Boot, and FastAPI for robust, scalable solutions.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Focus on sleek, modern, and responsive designs.</p>
+                                <p className="services__modal-info">Mobile-first designs that ensure seamless experience across devices.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Emphasis on mobile-responsive and SEO-friendly websites.</p>
+                                <p className="services__modal-info">SEO-friendly websites with great focus on performance optimization.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Tailored web solutions to meet specific business objectives.</p>
+                                <p className="services__modal-info">Customized solutions tailored to your business needs and goals.</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
             <div className="services__content">
                 <div>
-                    <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">Problem <br/>Solver</h3>
+                    <i className="uil uil-brain services__icon"></i>
+                    <h3 className="services__title">AI & Machine Learning <br/> Solutions</h3>
                 </div>
 
                 <span className="services__button" onClick={()=>toggleTab(2)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -62,37 +64,38 @@ const Services = () => {
                 <div className={toggleState === 2 ? "services__modal active-modal":"services__modal"}>
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={()=>toggleTab(0)}></i>
-                        <h3 className="services__modal-title">Problem Solver💡</h3>
-                        <p className="services__modal-description">Harnessing analytical skills and innovative thinking, I deliver effective solutions to complex problems. Committed to optimizing outcomes through strategic approaches and creative resolution strategies.</p>
+                        <h3 className="services__modal-title">Machine Learning & AI Consulting</h3>
+                        <p className="services__modal-description">I help businesses unlock the power of data through machine learning. Whether you need predictive models, data analysis, or AI-driven insights, I offer solutions that improve decision-making and automate key processes.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Expert in identifying and dissecting complex problems.</p>
+                                <p className="services__modal-info">Customized AI models to solve complex business problems.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Creative in developing innovative and effective solutions.</p>
+                                <p className="services__modal-info">Hands-on expertise with foundational ML/DL concepts and frameworks.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Proficient in applying logical and strategic thinking.</p>
+                                <p className="services__modal-info">Leveraging LangChain for powerful LLM applications in real-world scenarios.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Skilled in optimizing processes and improving efficiency.</p>
+                                <p className="services__modal-info">Data-driven insights and predictive models that enhance business operations.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Committed to continuous learning and skill enhancement.</p>
+                                <p className="services__modal-info">Comprehensive support, from strategy to implementation.</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            {/* <div className="services__content">
+
+            <div className="services__content">
                 <div>
-                    <i className="uil uil-edit services__icon"></i>
-                    <h3 className="services__title">Visual <br /> Designer</h3>
+                    <i className="uil uil-server services__icon"></i>
+                    <h3 className="services__title">Backend Development <br/> Services</h3>
                 </div>
 
                 <span className="services__button" onClick={()=>toggleTab(3)}>View More <i className="uil uil-arrow-right services__button-icon"></i></span>
@@ -100,33 +103,33 @@ const Services = () => {
                 <div className={toggleState === 3 ? "services__modal active-modal":"services__modal"}>
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={()=>toggleTab(0)}></i>
-                        <h3 className="services__modal-title">Visual Designer</h3>
-                        <p className="services__modal-description">Service with more than 3 years of experience. Providing quality work to clients and companies.</p>
+                        <h3 className="services__modal-title">Backend Development</h3>
+                        <p className="services__modal-description">I provide robust backend development services to power your applications. With expertise in FastAPI, Spring Boot, and MySQL/MongoDB, I ensure that your app performs at scale, securely and efficiently.</p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">I Develop the user interface.</p>
+                                <p className="services__modal-info">Building RESTful APIs with FastAPI and Spring Boot for scalable, maintainable apps.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Web page development.</p>
+                                <p className="services__modal-info">Optimizing database queries for performance and scalability with MySQL and MongoDB.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">I position your company brand.</p>
+                                <p className="services__modal-info">Ensure high availability and fault-tolerant backend systems.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">Design and mockups of products for companies.</p>
+                                <p className="services__modal-info">End-to-end backend solutions for complex business logic and process automation.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle service__modal-icon"></i>
-                                <p className="services__modal-info">I create ux element interactions.</p>
+                                <p className="services__modal-info">Custom integrations with third-party services and APIs.</p>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </div>
     </section>
   )

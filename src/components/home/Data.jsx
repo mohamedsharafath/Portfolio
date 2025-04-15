@@ -54,10 +54,11 @@ const Data = () => {
                   ></path>
                 </svg>
     </h1>
-    <h3 className="home__subtitle">Web Developer</h3>
-    <p className="home__description">I'm creative designer based
-in Tamil Nadu, and I'm very passionate and dedicated to my
-work.</p> 
+    <h3 className="home__subtitle">Software Developer</h3>
+<p className="home__description">
+  I'm a passionate software developer based in Tamil Nadu. I enjoy crafting clean, user-focused digital solutions and take pride in blending creativity with functionality in everything I build.
+</p>
+
 <a href="#contact" className="button button--flex">
 Say Hello
 <svg
